@@ -1,0 +1,25 @@
+{
+  "name": "arkansas-riak",
+  "author": {
+    "name": "Markus Ast",
+    "email": "npm.m@rkusa.st"
+  },
+  "version": "0.3.0",
+  "homepage": "https://github.com/rkusa/arkansas-riak",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "riak-js": "0.9.x"
+  },
+  "devDependencies": {
+    "mocha": "1.5.x",
+    "should": "1.2.x",
+    "arkansas": "0.3.x"
+  },
+  "bugs": "https://github.com/rkusa/arkansas-riak/issues",
+  "repository" : {
+    "type": "git",
+    "url": "git://github.com/rkusa/arkansas-riak.git"
+  }
+}
