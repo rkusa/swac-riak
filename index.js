@@ -13,6 +13,7 @@ var API = function(db, model, define, callback) {
       (this.queue.shift())()
     }
   }
+  this.queue.push(this.callback.bind(this))
   if (define)   define.call(this)
   var that = this
   process.nextTick(function() {
@@ -29,7 +30,7 @@ API.prototype.add2i = function(name, prop, isInt) {
   })
   .map({
     language: "javascript",
-    source: function(value, keyData, arg) { 
+    source: function(value, keyData, arg) {
       var data = Riak.mapValuesJson(value)[0]
       return [{
         key: value.key,

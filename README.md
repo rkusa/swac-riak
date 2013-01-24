@@ -1,6 +1,6 @@
-# [Arkansas](https://github.com/rkusa/Arkansas)' ![](https://dl.dropbox.com/u/6699613/arkansas-logo.png) Riak Adapter
+# [SWAC](https://github.com/rkusa/swac)' ![](https://dl.dropbox.com/u/6699613/swac-logo.png) Riak Adapter
 
-## Status [![Build Status](https://secure.travis-ci.org/rkusa/arkansas-riak.png)](http://travis-ci.org/rkusa/arkansas-riak)
+## Status [![Build Status](https://secure.travis-ci.org/rkusa/swac-riak.png)](http://travis-ci.org/rkusa/swac-riak)
 
 Don't use yet.
 

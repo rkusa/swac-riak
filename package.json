@@ -1,11 +1,11 @@
 {
-  "name": "arkansas-riak",
+  "name": "swac-riak",
   "author": {
     "name": "Markus Ast",
     "email": "npm.m@rkusa.st"
   },
   "version": "0.3.0",
-  "homepage": "https://github.com/rkusa/arkansas-riak",
+  "homepage": "https://github.com/rkusa/swac-riak",
   "scripts": {
     "test": "mocha"
   },
@@ -15,11 +15,11 @@
   "devDependencies": {
     "mocha": "1.5.x",
     "should": "1.2.x",
-    "arkansas": "0.3.x"
+    "swac": "0.3.x"
   },
-  "bugs": "https://github.com/rkusa/arkansas-riak/issues",
+  "bugs": "https://github.com/rkusa/swac-riak/issues",
   "repository" : {
     "type": "git",
-    "url": "git://github.com/rkusa/arkansas-riak.git"
+    "url": "git://github.com/rkusa/swac-riak.git"
   }
 }

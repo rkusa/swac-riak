@@ -1,4 +1,4 @@
-var Arkansas = require('arkansas')
+var swac = require('swac')
   , should   = require('should')
   , db       = require('riak-js').getClient({
     host: process.env.RIAK_HOST || 'localhost',
@@ -35,12 +35,12 @@ function cleanup(done) {
     .start()
 }
 
-describe('Arkansas Riak Adapter', function() {
+describe('SWAC Riak Adapter', function() {
   before(cleanup)
   after(cleanup)
   describe('CRUD', function() {
     before(function(done) {
-      model = Arkansas.Model.define('TestModel', function() {
+      model = swac.Model.define('TestModel', function() {
         this.use(require('../'), {
           host: process.env.RIAK_HOST || 'localhost',
           port: process.env.RIAK_PORT || 8098
